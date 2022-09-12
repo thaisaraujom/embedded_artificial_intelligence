@@ -1,6 +1,7 @@
 ## Embedded Artificial Intelligence
 
 ![](./img/scaling_tinyML_MLOps.png)
+
 Source: [Reddi et al. [2021]](https://arxiv.org/pdf/2106.04008.pdf)
 
 ### Projects and Summaries
