@@ -35,6 +35,6 @@ In this way, the paper also brings to light the social side of what can be creat
 
 
 
-#### Referência
+#### Reference
 Reddi, V.J.; Plancher, B.; Kennedy, S.; Moroney, L.; Warden, P.; Agarwal, A.; Banbury, C.; Banzi, M.; Bennett, M.; Brown, B.; et al.
 Widening Access to Applied Machine Learning with TinyML. arXiv 2021, arXiv:2106.04008. Available at https://arxiv.org/pdf/2106.04008.pdf (Accessed: 08 September 2022)
