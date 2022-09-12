@@ -13,7 +13,7 @@ Dessa forma, o artigo também traz à tona o lado social diante do que pode ser 
 
 #### Referência
 Reddi, V.J.; Plancher, B.; Kennedy, S.; Moroney, L.; Warden, P.; Agarwal, A.; Banbury, C.; Banzi, M.; Bennett, M.; Brown, B.; et al.
-**Widening Access to Applied Machine Learning with TinyML.** arXiv 2021, arXiv:2106.04008. Disponível em:https://arxiv.org/pdf/2106.04008.pdf. Acesso em: 08 de setembro de 2022.
+**Widening Access to Applied Machine Learning with TinyML.** arXiv 2021, arXiv:2106.04008. Disponível em: https://arxiv.org/pdf/2106.04008.pdf. Acesso em: 08 de setembro de 2022.
 
 ---
 
