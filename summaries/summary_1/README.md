@@ -18,7 +18,7 @@ Reddi, V.J.; Plancher, B.; Kennedy, S.; Moroney, L.; Warden, P.; Agarwal, A.; Ba
 ---
 
 ### English version
-#### Summary of paper "Widening Access to Applied Machine Learning with TinyML"
+#### Summary of the paper "Widening Access to Applied Machine Learning with TinyML"
 
 The paper presents a description of the pedagogical approach of a massive open online course (MOOC) created on TinyML, a collaboration between Harvard University and Google, discussing the great impact that machine learning has been causing in the world, with the possibility of helping in the development of several areas, such as education, in autonomous vehicles, health, robotics, transport and security, bringing to light the need to apply it in devices with low processing power and low cost, as way to expand knowledge globally. For this, the authors propose five principles, which involve the intertwining of theory with practice, as well as between academia and industry, so that essential skills can be developed for the insertion of students in the market, in addition to prioritizing open access through the MOOC platform, and the creation of a collaborative work environment.
 
