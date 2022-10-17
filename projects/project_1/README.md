@@ -51,7 +51,7 @@ It should be noted that the model trained in this project was used only for vali
 ```
 git clone https://github.com/thaisaraujo2000/embedded_artificial_intelligence.git
 ```
-3. Import to Google Colab the files
+3. Import to [Google Colab](https://colab.research.google.com/) the files
 
 4. Change the username or team name where you're sending runs
 
