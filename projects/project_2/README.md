@@ -142,7 +142,7 @@ Run                         |Accuracy|Precision|Recall|F1-Score
 
 The image below shows the results reached according to the parameters of each sweep.
 
-![image info](./img/sweep-data-augumentation.png)
+![image info](./img/sweep-data-augmentation.png)
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
