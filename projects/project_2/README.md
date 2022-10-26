@@ -181,7 +181,7 @@ The configurations of the sweep to make the hyperparameter tuning to the Kakashi
 
 The parameters for the sweep were chosen randomly, and there were tested 10 different types of configuration to the KakashiNet architecture.
 
-The best configuration can be seen in the image below, which has __2__ convolutional layers with __16__ filters __5x5__ each. Then, we have the polling layer using __AveragePooling__, it has the number __0.01__ as the learning rate, __32__ as the batch size value. In the end, it has a flatten layer followed by three fully connected layers with 120, 84 and 10 neurons, respectively. This configuration achieved an accuracy of 99.47%.
+The best configuration can be seen in the image below, which has __2__ convolutional layers. Then, we have the polling layer using __AveragePooling__, it has the number __0.001__ as the learning rate, __64__ as the batch size value. In the end, it has a flatten layer followed by three fully connected layers with 120, 84 and 10 neurons, respectively. This configuration achieved an accuracy of 99.47%.
 
 ![image info](./img/kakashinet_background.png)
 
@@ -225,7 +225,7 @@ Then, we can observe, respectively, the accuracy and loss graph, the output of t
     <p align="center">Confusion Matrix</p>
 </p align="center">
 
-As observed in the confusion matrix, the model was more confused predicting the numbers 7 and 8 when it was actually the number 9.
+As observed in the confusion matrix, the model was more confused predicting the number 6 when it was actually the number 0.
 
 ## Reference
 [Ivanovitch's Repository](https://github.com/ivanovitchm/embedded.ai) 
