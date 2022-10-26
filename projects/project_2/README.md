@@ -181,7 +181,7 @@ The configurations of the sweep to make the hyperparameter tuning to the Kakashi
 
 The parameters for the sweep were chosen randomly, and there were tested 10 different types of configuration to the KakashiNet architecture.
 
-The best configuration can be seen in the image below, which has __2__ convolutional layers. Then, we have the polling layer using __AveragePooling__, it has the number __0.001__ as the learning rate, __64__ as the batch size value. In the end, it has a flatten layer followed by three fully connected layers with 120, 84 and 10 neurons, respectively. This configuration achieved an accuracy of 99.47%.
+The best configuration can be seen in the image below, which has __2__ convolutional layers. Then, we have the pooling layer using __AveragePooling__, it has the number __0.001__ as the learning rate, __64__ as the batch size value. In the end, it has a flatten layer followed by three fully connected layers with 120, 84 and 10 neurons, respectively. This configuration achieved an accuracy of 99.47%.
 
 ![image info](./img/kakashinet_background.png)
 
