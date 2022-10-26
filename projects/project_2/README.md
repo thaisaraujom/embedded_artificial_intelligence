@@ -63,18 +63,18 @@ The image below shows the results reached according to the parameters of each sw
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
-<div style="text-align:center">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img src="./img/loss-accuracy-lenet.png" width="500px"/>
     <p>Accuracy and Loss Graph</p> 
 </div>
 
 
-<div style="text-align:center">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img src="./img/classification-report-lenet.png" width="500px"/>
     <p>Classification Report</p>
 </div>
 
-<div style="text-align:center">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img src="./img/confusion-matrix-lenet.png" width="500px"/>
     <p>Confusion matrix</p>
 </div>
@@ -146,19 +146,19 @@ The image below shows the results reached according to the parameters of each sw
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
-<div style="text-align:center">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img width='500' src='./img/acc_loss.png'>
     <p>Accuracy and Loss Graph</p> 
 </div>
 
 
-<div style="text-align:center">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img width='500' src='./img/classification_report.png'>
     <p>Classification Report</p>
 </div>
 
 
-<div style="text-align:center">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img width='500' src='./img/confusion_matrix.png'>
     <p>Confusion Matrix</p>
 </div>
@@ -208,19 +208,19 @@ The image below shows the results reached according to the parameters of each sw
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
-<div style="text-align:center">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img width='500' src='./img/kakashinet_loss_accuracy.png'>
     <p>Accuracy and Loss Graph</p>
 </div>
 
 
-<div style="text-align:center">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img width='500' src='./img/kakashinet_classification_report.png'>
     <p>Classification Report</p>
 </div>
 
 
-<div style="text-align:center">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img width='500' src='./img/kakashinet_confusion_matrix.png'>
     <p>Confusion Matrix</p>
 </div>
