@@ -21,7 +21,7 @@ The model proposes a pattern of a convolutional layer followed by an average poo
 
 This pattern is repeated two and a half times before the output feature maps are flattened and fed to some fully connected layers for interpretation and a final prediction. A picture of the network architecture is provided in the paper and reproduced below.
 
-### :mag: Settings to hyperparameter tuning 
+### :mag: Settings for hyperparameter tuning 
 
 The configurations of the sweep to make the hyperparameter tuning for the LeNet-5 CNN are described below:
 *  `conv_layer`: number of convolutional layers. The possibilities are 2, 3 or 4;
@@ -63,24 +63,21 @@ The image below shows the results reached according to the parameters of each sw
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
-<center>
-<img src="./img/loss-accuracy-lenet.png" width="500px"/>
+<div style="text-align:center">
+    <img src="./img/loss-accuracy-lenet.png" width="500px"/>
+    <p>Accuracy and Loss Graph</p> 
+</div>
 
-Accuracy and Loss Graph 
-</center>
 
+<div style="text-align:center">
+    <img src="./img/classification-report-lenet.png" width="500px"/>
+    <p>Classification Report</p>
+</div>
 
-<center>
-<img src="./img/classification-report-lenet.png" width="500px"/>
-
-Classification report
-</center>
-
-<center>
-<img src="./img/confusion-matrix-lenet.png" width="500px"/>
-
-Confusion matrix
-</center>
+<div style="text-align:center">
+    <img src="./img/confusion-matrix-lenet.png" width="500px"/>
+    <p>Confusion matrix</p>
+</div>
 
 As observed in the confusion matrix, the model was more confused predicting the numbers 4 and 7 when it was actually the number 9.
 
@@ -149,26 +146,22 @@ The image below shows the results reached according to the parameters of each sw
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
-<center>
-<img width='500' src='./img/acc_loss.png'>
-
-Accuracy and Loss Graph 
-</center>
-
-
-<center>
-<img width='500' src='./img/classification_report.png'>
-
-Classification Report
-</center>
+<div style="text-align:center">
+    <img width='500' src='./img/acc_loss.png'>
+    <p>Accuracy and Loss Graph</p> 
+</div>
 
 
+<div style="text-align:center">
+    <img width='500' src='./img/classification_report.png'>
+    <p>Classification Report</p>
+</div>
 
-<center>
-<img width='500' src='./img/confusion_matrix.png'>
 
-Confusion Matrix
-</center>
+<div style="text-align:center">
+    <img width='500' src='./img/confusion_matrix.png'>
+    <p>Confusion Matrix</p>
+</div>
 
 As observed in the confusion matrix, the model was more confused predicting the number 7 when it was actually the number 2.
 
@@ -176,7 +169,7 @@ As observed in the confusion matrix, the model was more confused predicting the 
 
 The purpose of KakashiNet architecture is to explore the use of batch normalization and dropout, in addition to changing the activation function.
 
-### :mag: Settings to hyperparameter tuning 
+### :mag: Settings for hyperparameter tuning 
 The configurations of the sweep to make the hyperparameter tuning to the KakashiNet arquitecthure are described below:
 *  `conv_layer`: number of convolutional layers. The possibilities are 1, 2 or 3;
 *  `learn_rate`: the step size at each iteration while moving toward a minimum of a loss function. The possibilities are 0.01, 0.001 or 0.005;
@@ -215,25 +208,22 @@ The image below shows the results reached according to the parameters of each sw
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
-<center>
-<img width='500' src='./img/kakashinet_loss_accuracy.png'>
-
-Accuracy and Loss Graph 
-</center>
-
-
-<center>
-<img width='500' src='./img/kakashinet_classification_report.png'>
-
-Classification Report
-</center>
+<div style="text-align:center">
+    <img width='500' src='./img/kakashinet_loss_accuracy.png'>
+    <p>Accuracy and Loss Graph</p>
+</div>
 
 
-<center>
-<img width='500' src='./img/kakashinet_confusion_matrix.png'>
+<div style="text-align:center">
+    <img width='500' src='./img/kakashinet_classification_report.png'>
+    <p>Classification Report</p>
+</div>
 
-Confusion Matrix
-</center>
+
+<div style="text-align:center">
+    <img width='500' src='./img/kakashinet_confusion_matrix.png'>
+    <p>Confusion Matrix</p>
+</div>
 
 As observed in the confusion matrix, the model was more confused predicting the numbers 7 and 8 when it was actually the number 9.
 

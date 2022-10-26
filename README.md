@@ -10,3 +10,4 @@ Source: [Reddi et al. [2021]](https://arxiv.org/pdf/2106.04008.pdf)
 
 ### Projects
 - [Image classifier: panda, dog or cat](https://github.com/thaisaraujo2000/embedded_artificial_intelligence/tree/main/projects/project_1)
+- [LeNet-5 and adapted models](https://github.com/thaisaraujo2000/embedded_artificial_intelligence/tree/main/projects/project_2)
