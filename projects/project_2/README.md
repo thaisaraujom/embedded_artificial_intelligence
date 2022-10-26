@@ -63,21 +63,21 @@ The image below shows the results reached according to the parameters of each sw
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+<p align="center" style="text-align:center">
     <img src="./img/loss-accuracy-lenet.png" width="500px"/>
     <p>Accuracy and Loss Graph</p> 
-</div>
+</p align="center">
 
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+<p align="center" style="text-align:center">
     <img src="./img/classification-report-lenet.png" width="500px"/>
     <p>Classification Report</p>
-</div>
+</p align="center">
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+<p align="center" style="text-align:center">
     <img src="./img/confusion-matrix-lenet.png" width="500px"/>
     <p>Confusion matrix</p>
-</div>
+</p align="center">
 
 As observed in the confusion matrix, the model was more confused predicting the numbers 4 and 7 when it was actually the number 9.
 
@@ -146,22 +146,22 @@ The image below shows the results reached according to the parameters of each sw
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+<p align="center" style="text-align:center">
     <img width='500' src='./img/acc_loss.png'>
     <p>Accuracy and Loss Graph</p> 
-</div>
+</p align="center">
 
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+<p align="center" style="text-align:center">
     <img width='500' src='./img/classification_report.png'>
     <p>Classification Report</p>
-</div>
+</p align="center">
 
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+<p align="center" style="text-align:center">
     <img width='500' src='./img/confusion_matrix.png'>
     <p>Confusion Matrix</p>
-</div>
+</p align="center">
 
 As observed in the confusion matrix, the model was more confused predicting the number 7 when it was actually the number 2.
 
@@ -208,22 +208,22 @@ The image below shows the results reached according to the parameters of each sw
 
 Then, we can observe, respectively, the accuracy and loss graph, the output of the classification report and the confusion matrix to the best model obtained in the sweep.
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+<p align="center" style="text-align:center">
     <img width='500' src='./img/kakashinet_loss_accuracy.png'>
     <p>Accuracy and Loss Graph</p>
-</div>
+</p align="center">
 
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+<p align="center" style="text-align:center">
     <img width='500' src='./img/kakashinet_classification_report.png'>
     <p>Classification Report</p>
-</div>
+</p align="center">
 
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+<p align="center" style="text-align:center">
     <img width='500' src='./img/kakashinet_confusion_matrix.png'>
     <p>Confusion Matrix</p>
-</div>
+</p align="center">
 
 As observed in the confusion matrix, the model was more confused predicting the numbers 7 and 8 when it was actually the number 9.
 
