@@ -167,7 +167,7 @@ As observed in the confusion matrix, the model was more confused predicting the 
 
 ## Model 3: KakashiNet
 
-The purpose of KakashiNet architecture is to explore the use of batch normalization and dropout, in addition to changing the activation function.
+The purpose of KakashiNet architecture is to explore the use of batch normalization and dropout, using the ReLU activation function.
 
 ### :mag: Settings for hyperparameter tuning 
 The configurations of the sweep to make the hyperparameter tuning to the KakashiNet arquitecthure are described below:
