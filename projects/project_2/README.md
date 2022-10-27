@@ -225,7 +225,7 @@ Then, we can observe, respectively, the accuracy and loss graph, the output of t
     <p align="center">Confusion Matrix</p>
 </p align="center">
 
-As observed in the confusion matrix, the model was more confused predicting the number 4 when it was actually the number 9.
+As observed in the confusion matrix, the model was more confused predicting the number 9 when it was actually the number 4.
 
 ## Reference
 [Ivanovitch's Repository](https://github.com/ivanovitchm/embedded.ai) 
