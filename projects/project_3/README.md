@@ -12,7 +12,7 @@ With that in mind, [Mariana Azevedo](https://github.com/marianabritoazevedo) [![
 Source: [Embarcados (2020)](https://embarcados.com.br/tinyml-machine-learning-para-microcontroladores/)
 </p>
 
-You can check out our project using transfer learning done with the GPU in the Google Colaboratory [neste link](../face_mask_detection/)
+You can check out our project using transfer learning done with the GPU in the Google Colaboratory [neste link](../face_mask_detection/).
 
 ## The Big Picture
 
