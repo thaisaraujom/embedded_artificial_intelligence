@@ -43,24 +43,13 @@ Overall, our project was divided into three steps: The first steps; Train/Test a
 
 **Train a model**: The training was performed for 20 epochs and the hyperparameter tuning was done using a tool called EON Tuner, which searches for parameters for the model architecture according to some targets defined by the group. The result of the chosen model and the target can be seen in the image below.
 
-<style>
-.row{
-  display: flex;
-  justify-content: space-around;
-}
-.column {
-  width: 30%;
-  padding: 5px;
-}
-</style>
+<div class="row" style='display: flex; justify-content: space-around;'>
 
-<div class="row">
-
-  <div class="column">
+  <div class="column" style='width: 30%; padding: 5px;'>
     <img src="./img/final_model.png">
   </div>
 
-  <div class="column">
+  <div class="column" style='width: 30%; padding: 5px;>
     <img src="./img/target.png">
   </div>
 
@@ -88,15 +77,15 @@ The step-by-step on how to deploy can be found in more detail in Marcelo Rovai's
 
 It is important to know that these steps on how to run take into account that the entire model creation process has already been carried out on the [Edge Impulse](https://www.edgeimpulse.com/) platform.
 
-1- Clone this repository 
+1. Clone this repository 
 
 ```
-git clone https://github.com/marianabritoazevedo/embedded-ai.git
+git clone https://github.com/thaisaraujo2000/embedded_artificial_intelligence
 ```
 
-2- Download Arduino IDE, you can check it [here](https://www.arduino.cc/en/software)
+2. Download Arduino IDE, you can check it [here](https://www.arduino.cc/en/software)
 
-3- Install the libraries necessary to run this project. They are: `Arduino Mbed OS Nano Boards`, `Harvard_TinyMLx`, `Arduino_TensorFlowLite` and `Arduino_OV767X`.
+3. Install the libraries necessary to run this project. They are: `Arduino Mbed OS Nano Boards`, `Harvard_TinyMLx`, `Arduino_TensorFlowLite` and `Arduino_OV767X`.
 To install the libraries, you can follow these steps:
 
 ```
@@ -105,28 +94,28 @@ Tools >> Manage libraries
 
 :heavy_exclamation_mark: Attention: to install `Arduino_TensorFlowLite`, it is necessary to use this [repository](https://github.com/tensorflow/tflite-micro-arduino-examples)
 
-4- Take the file `ei-face_mask_detection_2-arduino-1.0.5.zip` in the folder `library_zip` and add as a library in Arduino IDE. This can be done by following the sequence:
+4. Take the file `ei-face_mask_detection_2-arduino-1.0.5.zip` in the folder `library_zip` and add as a library in Arduino IDE. This can be done by following the sequence:
 
 ```
 Sketch >> Include library >> Add .zip library
 ```
 
-5- Choose the file with the project
+5. Choose the file with the project
 ```
 File >> Examples >> face_mask_detection_2_inferencing >> nano_ble33_sense >> nano_ble33_sense_camera
 ```
 
-6- Connect your Arduino Nano 33 BLE sense in the Arduino IDE. 
+6. Connect your Arduino Nano 33 BLE sense in the Arduino IDE. 
 ```
 Tools >> Board >> Arduino Mbed OS Nano Boads >> Arduino Nano 22 BLE
 ```
 
-7- Connect the port
+7. Connect the port
 ```
 Tools >> Port >> COM4 (this may change)
 ```
 
-8- Run the project
+8. Run the project
 ```
 Verify >> Upload
 ```
@@ -135,7 +124,7 @@ Verify >> Upload
 
 - [Edge Impulse](https://www.edgeimpulse.com)
 
-- [Ivanovitch's repository for embedded artificial intelligence repository](https://github.com/ivanovitchm/embedded.ai)
+- [Ivanovitch's repository](https://github.com/ivanovitchm/embedded.ai)
 
 - [Kaggle | Face mask Dataset](https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset)
 
