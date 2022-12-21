@@ -41,20 +41,15 @@ Overall, our project was divided into three steps: The first steps; Train/Test a
 
 ## Train/Test
 
-**Train a model**: The training was performed for 20 epochs and the hyperparameter tuning was done using a tool called EON Tuner, which searches for parameters for the model architecture according to some targets defined by the group. The result of the chosen model and the target can be seen in the image below.
+**Train a model**: The training was performed for 20 epochs and the hyperparameter tuning was done using a tool called EON Tuner, which searches for parameters for the model architecture according to some targets defined by the group. The result of the chosen model and the target can be seen in the images below.
 
-<div class="row" style='display: flex; justify-content: space-around;'>
+<p align='center'>
+  <img src="./img/final_model.png" width=300>
+</p>
 
-  <div class="column" style='width: 30%; padding: 5px;'>
-    <img src="./img/final_model.png">
-  </div>
-
-  <div class="column" style='width: 30%; padding: 5px;>
-    <img src="./img/target.png">
-  </div>
-
-</div>
-
+<p align='center'>
+  <img src="./img/target.png"  width=300>  
+</p>
 
 With this, it is possible to observe that all parameters were within the limitations of the device we want to ship the model and a very good acuity was obtained. It is important to point out that it is good practice that the model occupies about 50% of the total available RAM, since it will be necessary to load the image that will be made the inference during the use of the device.
 
