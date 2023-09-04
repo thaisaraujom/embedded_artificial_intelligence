@@ -75,7 +75,7 @@ It is important to know that these steps on how to run take into account that th
 1. Clone this repository 
 
 ```
-git clone https://github.com/thaisaraujo2000/embedded_artificial_intelligence
+git clone https://github.com/thaisaraujom/embedded_artificial_intelligence
 ```
 
 2. Download Arduino IDE, you can check it [here](https://www.arduino.cc/en/software)
